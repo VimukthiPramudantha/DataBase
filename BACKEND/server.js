@@ -22,7 +22,7 @@ connection.once("open", () => {
    console.log("MongoDB database connection established successfully"); 
 })
 
-const StudentRouter = require("./routes/Student");
+const StudentRouter = require("./routes/students");
 app.use("/student",StudentRouter);
 
 app.listen(PORT, () => {
