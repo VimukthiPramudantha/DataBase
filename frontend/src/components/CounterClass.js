@@ -16,6 +16,7 @@ class CounterClass extends React.Component{
     render(){
         return(
             <div>
+                <header>Class Base Component </header>
                 <h1>Counter = {this.state.number}</h1>
                 <button onClick={this.increment}>Increment</button>
             </div>
